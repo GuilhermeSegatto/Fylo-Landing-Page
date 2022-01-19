@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--  Header com o Nav-Bar  -->
+    <header>
+      <div class="nav-wrapper">
+        <img src="images/logo.svg" alt="" aria-hidden="true">  
+        <nav>
+          <ul>
+            <li><a class="text_des_blue" href="">Features</a></li>
+            <li><a class="text_des_blue" href="">Team</a></li>
+            <li><a class="text_des_blue" href="">Sign In</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-wrapper">
+        <!-- Section 1 -->
+        <img class="image_section" src="images/illustration-1.svg" alt="" aria-hidden="true">
+        <section class="section_1">
+          <h1 class="title_dark_blue">All your files in one secure location, accessible anywhere.</h1>
+          <p class="text_dark_blue">Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.</p>
+          <!-- Email -->
+          <div class="email_1">
+            <input type="email" name="email" class="email" placeholder="Enter your Email..." required="required">
+            <input type="submit" class="mail_btn " value="Get Started">
+          </div>
+        </section>
+        <!-- Background Cover -->
+        <img class="bg_curve_mobile" src="images/bg-curve-mobile.svg" alt="" aria-hidden="true">
+        <!-- Section 2 -->
+        <section>
+          <div class=section_2>
+            <img class="image_section" src="images/illustration-2.svg" alt="" aria-hidden="true">
+            <h2 class="title_dark_blue">Stay productive, wherever you are</h2>
+            <p class="text_des_blue">Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.</p>
+            <p class="text_des_blue">Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required !</p>
+            <div class="see_how">
+              <a href="#">See how Fylo works</a>
+              <img src="/images/icon-arrow.svg" alt="">
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

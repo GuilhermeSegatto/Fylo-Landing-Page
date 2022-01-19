@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ------ Generic Class ------ */
+
+.title_dark_blue {
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text_dark_blue {
+    color: hsl(243, 87%, 12%);
+    font-size: 1em;
+
+}
+
+.text_des_blue {
+    color: hsl(238, 22%, 44%);
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mail_btn {
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.email::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 75%);
+}
+
+.image_section {
+    width: 90%;
+    padding: 1.5em 0;
+    max-width: 520px;
+}
+
+/* ------ Header and Nav ------ */
+
+header {
+    padding: 1.5em;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 520px;
+    padding-bottom: 2.5em;
+}
+
+.nav-wrapper > img {
+    width: 26%;
+    height: 26%;
+    max-width: 120px;
+}
+
+.nav-wrapper nav ul {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* ------ Section 1 ------ */
+
+.main-wrapper {
+    /* width: 100%; */
+    margin: 0 auto;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_1 {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_1 > h1 {
+    text-align: center;
+    line-height: 1.5em;
+    padding: 1em 0;
+}
+
+.section_1 > p {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+/* Email 1 */
+
+.email_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email_1 > .email {
+    height: 3em;
+    width: 100%;
+    border: 1px solid hsl(238, 22%, 44%);
+    border-radius: 4px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0 10px;
+    margin-bottom: 1.5em;
+}
+
+.email_1 .mail_btn{
+    width: 100%;
+    height: 3em;
+    margin-bottom: 3.5em;
+}
+
+/* Background cover */
+.bg_curve_mobile {
+    width: 100vw;
+    left: 0;
+}
+
+/* Section 2 */
+
+.section_2 {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(240, 75%, 98%);
+    width: 100vw;
+}
+
+.section_2 > h2 {
+    font-size: 1.25em;
+    padding: 1.5em 0 1.5em;
+    margin: 0 auto;
+    max-width: 520px;
+
+}
+
+.section_2 > p {
+    padding-bottom: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 520px;
+}
+
+/* How fylo button */
+.see_how {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: hsl(170, 45%, 43%) 2px solid;
+    padding-bottom: 5px;
+}
+
+.see_how > a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(170, 45%, 43%);
+    padding-right: 10px;
+}
+
+.see_how > img {}
